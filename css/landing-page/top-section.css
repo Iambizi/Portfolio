@@ -56,7 +56,7 @@
 }
 
 #top .img .background-img{
-    background: url('../img/newcssimg.png');
+    background: url('../../img/newcssimg.png');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;

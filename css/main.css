@@ -1,9 +1,10 @@
 @import "cssreset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700');
-@import "top-section.css";
-@import "services.css";
-@import "portfolio-section.css";
-@import "experience-section.css";
+@import "landing-page/top-section.css";
+@import "landing-page/services.css";
+@import "landing-page/portfolio-section.css";
+@import "landing-page/experience-section.css";
+@import "portfolio/portfolio-projects.css";
 @import "footer-section.css";
 
 
@@ -88,7 +89,7 @@ header .menu-btn{
     box-shadow: 2px 10px 78px -15px rgba(0,0,0,0.75);
 }
 
-.mobile-menu .active{
+.mobile-menu.active{
     transform: translate3d(0,0,0);
 }
 
