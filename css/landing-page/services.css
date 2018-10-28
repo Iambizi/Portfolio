@@ -24,7 +24,7 @@
     position: relative;
     font-size: 2.5rem;
     text-transform: uppercase;
-    font-weight: 700;
+    /* font-weight: 400; */
     color: #16171b;
     z-index:1;
     letter-spacing: 4px;

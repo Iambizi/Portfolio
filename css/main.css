@@ -22,20 +22,25 @@ header{
 
 header .logo{
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 350;
     text-transform: uppercase;
-    color: white;
+    /* color: #000; */
     display: flex;
 }
 
 header .logo .name{
-    background: black;
+    background: transparent;
     padding:15px 20px;
     text-decoration: none;
+    border-radius: 8px;
+}
+
+header .logo:hover{
+    color:#87cdff;
 }
 
 header .logo .name:visited{
-    color:#fff;
+    color:#222;
 }
 
 header .header-menu {
@@ -57,12 +62,11 @@ header .header-menu a{
 }
 
 header .header-menu a:hover{
-    font-weight: 700;
-    color:#ff5253;
+    color:#87cdff;
 }
 header .menu-btn{
     font-weight: 700;
-    color:#ff5253;
+    color:#87cdff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +106,7 @@ header .menu-btn{
 .mobile-menu a:hover{
     text-decoration: none;
     color: white;
-    background: #ff5253;
+    color:#87cdff;
 }
 
 @media only screen and (max-width:96px){

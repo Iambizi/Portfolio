@@ -24,7 +24,7 @@
     position: relative;
     font-size: 2.5rem;
     text-transform: uppercase;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: #16171b;
     z-index:1;
     letter-spacing: 4px;
@@ -47,6 +47,7 @@
     text-decoration: none;
     text-transform:uppercase;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 #portfolio-section .portfolio-container .box:hover {
@@ -68,7 +69,7 @@
 #portfolio-section .portfolio-container .box:hover .image .hover-bg{
     padding: 10px 20px;
     background: rgba(255, 53, 53, 0.8);
-    
+    /* background: rgba(135, 205, 255, 0.8); */
 }
 
 #portfolio-section .portfolio-container .box .image .hover-bg .title{
@@ -102,7 +103,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image1 .image{
-    background: url("https://cdn.dribbble.com/users/28738/screenshots/4287721/main.jpg");
+    background: url("/Users/amir/Desktop/repos/Branding portfolio/css/portfolio/images/Screen Shot 2018-10-27 at 8.03.01 PM.png");
     height: 100%;
     width: 100%;
     background-size: cover;

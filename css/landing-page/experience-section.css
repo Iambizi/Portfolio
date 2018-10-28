@@ -5,7 +5,7 @@
 
 #experience-section .large-title {
     color: #c6e4ff;
-    font-weight:900;
+    /* font-weight:900; */
     font-size: 3.7rem;
     text-align: center;
     text-transform:uppercase;
@@ -31,7 +31,7 @@
 #experience-section .experience-container .info-box h4{
     color: #16171b;
     font-size: 1rem;
-    font-weight: 900;
+    /* font-weight: 900; */
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -39,7 +39,7 @@
 #experience-section .experience-container .info-box .date{
     color: #52b7ff;
     font-size: .9rem;
-    font-weight: 600;
+    /* font-weight: 600; */
     text-transform: capitalize;
     letter-spacing: 3px;
     padding: 15px 0;
@@ -49,7 +49,7 @@
 #experience-section .experience-container .info-box p{
     color: #b2b2b4;
     font-size: 1rem;
-    font-weight: 400;
+    /* font-weight: 400; */
     letter-spacing: 1px;
     display: block;
     line-height: 1.8;

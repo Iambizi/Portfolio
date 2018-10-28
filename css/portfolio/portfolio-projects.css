@@ -13,6 +13,8 @@
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
+    border-radius:  10px;
+
 }
 
 #portfolio-projects h1{
@@ -43,7 +45,7 @@
 }
 
 #portfolio-projects .info .buttons a:hover{
-    background:#ff5253;
+    background:#87cdff;
 }
 
 #portfolio-projects .info .buttons .fas{
@@ -85,7 +87,7 @@
 
 #portfolio-projects .technologies .icons img.icon{
     width: 100%;
-    max-width: 90px;
+    max-width: 150px;
     padding: 0 10px;
 }
 
