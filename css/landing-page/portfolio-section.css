@@ -103,7 +103,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image1 .image{
-    background: url("/Users/amir/Desktop/repos/Branding portfolio/css/portfolio/images/Screen Shot 2018-10-27 at 8.03.01 PM.png");
+    background: url("../portfolio/images/Screen Shot 2018-10-27 at 8.03.01 PM.png");
     height: 100%;
     width: 100%;
     background-size: cover;
