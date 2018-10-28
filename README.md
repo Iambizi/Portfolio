@@ -1,3 +1,3 @@
 # Portfolio
 https://iambizi.github.io/Portfolio/   New Portfolio
-Still in progress
+still in progress
