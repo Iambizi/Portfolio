@@ -17,9 +17,9 @@
 
 }
 
-#portfolio-projects h1{
+#portfolio-projects h2{
     font-size: 4rem;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-style: italic;
     margin-bottom: 1.5rem;
 }
@@ -70,7 +70,7 @@
 
 #portfolio-projects h3{
     font-size: 2rem;
-    font-weight: 700;
+    /* font-weight: 700; */
     margin: 2rem 0;
     text-transform: uppercase;
 }
