@@ -5,7 +5,7 @@
 
 #experience-section .large-title {
     color: #c6e4ff;
-    /* font-weight:900; */
+    font-weight:500;
     font-size: 3.7rem;
     text-align: center;
     text-transform:uppercase;
@@ -40,7 +40,7 @@
     color: #52b7ff;
     font-size: .9rem;
     /* font-weight: 600; */
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     letter-spacing: 3px;
     padding: 15px 0;
     display: block;
@@ -57,10 +57,7 @@
 
 
 /*Tablets */
-#experience-section .experience-container .large-icons{
-    position: relative;
-    top: -25px;
-}
+
 @media only screen and (max-width:960px){
     #experience-section .large-title {
         font-size: 2.5rem;
