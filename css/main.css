@@ -33,6 +33,7 @@ header .logo .name{
     padding:15px 20px;
     text-decoration: none;
     border-radius: 8px;
+    color:#222;
 }
 
 header .logo:hover{

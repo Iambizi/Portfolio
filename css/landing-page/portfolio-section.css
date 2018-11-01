@@ -101,9 +101,8 @@
     grid-column: 1 / 3;
     grid-row: 1 / 2;
 }
-
 #portfolio-section .portfolio-container .box.image1 .image{
-    background: url("../portfolio/images/Screen Shot 2018-10-27 at 8.03.01 PM.png");
+    background: url("https://cdn.dribbble.com/users/28738/screenshots/4287721/main.jpg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -117,7 +116,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image2 .image{
-    background: url("https://cdn.dribbble.com/users/692322/screenshots/4555970/dr8-6.png");
+    background: url("../portfolio/images/Screen Shot 2018-11-01 at 12.13.34-fullpage.png");
     height: 100%;
     width: 100%;
     background-size: cover;
