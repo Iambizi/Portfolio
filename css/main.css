@@ -1,5 +1,5 @@
 @import "cssreset.css";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700");
 @import "landing-page/top-section.css";
 @import "landing-page/services.css";
 @import "landing-page/portfolio-section.css";
@@ -7,126 +7,125 @@
 @import "portfolio/portfolio-projects.css";
 @import "footer-section.css";
 
-
 .container {
-    max-width: 1150px;
-    margin: 0 auto;
+  max-width: 1150px;
+  margin: 0 auto;
 }
 
-header{
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: center;
+header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header .logo{
-    font-size: 1.5rem;
-    font-weight: 350;
-    text-transform: uppercase;
-    /* color: #000; */
-    display: flex;
+header .logo {
+  font-size: 1.5rem;
+  font-weight: 350;
+  text-transform: uppercase;
+  /* color: #000; */
+  display: flex;
 }
 
-header .logo .name{
-    background: transparent;
-    padding:15px 20px;
-    text-decoration: none;
-    border-radius: 8px;
-    color:#222;
+header .logo .name {
+  background: transparent;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #222;
 }
 
-header .logo:hover{
-    color:#87cdff;
+header .logo .name:hover {
+  color: #87cdff;
 }
 
-header .logo .name:visited{
-    color:#222;
+header .logo .name:visited {
+  color: #222;
 }
 
 header .header-menu {
-    font-size: 1 rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 1 rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-header .header-menu a{
-    font-size: 1rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: black;
-    padding: 0 10px;
-    /* transition: all .3s ease-in-out; */
+header .header-menu a {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+  /* transition: all .3s ease-in-out; */
 }
 
-header .header-menu a:hover{
-    color:#87cdff;
+header .header-menu a:hover {
+  color: #87cdff;
 }
-header .menu-btn{
-    font-weight: 700;
-    color:#87cdff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    font-size: 1.6rem;
+header .menu-btn {
+  font-weight: 700;
+  color: #87cdff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.6rem;
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+  background: #fff;
+  flex-direction: column;
+  padding: 40px 0;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 50%;
+  z-index: 10;
+  transform: translate3d(-100%, 0, 0);
+  transition: all 0.4s ease-in-out;
+  -webkit-box-shadow: 2px 10px 78px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 10px 78px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 10px 78px -15px rgba(0, 0, 0, 0.75);
+}
+
+.mobile-menu.active {
+  transform: translate3d(0, 0, 0);
+}
+
+.mobile-menu a {
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.mobile-menu a:hover {
+  text-decoration: none;
+  color: white;
+  color: #87cdff;
+}
+
+@media only screen and (max-width: 96px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header .header-menu {
     display: none;
-    cursor: pointer;
-}
-
-.mobile-menu{
-    display: none;
-    background:#fff;
-    flex-direction: column;
-    padding: 40px 0;
-    position: absolute;
-    top: 0;
-    height: 100vh;
-    width: 50%;
-    z-index:10;
-    transform: translate3d(-100%,0,0);
-    transition: all .4s ease-in-out;
-    -webkit-box-shadow: 2px 10px 78px -15px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 10px 78px -15px rgba(0,0,0,0.75);
-    box-shadow: 2px 10px 78px -15px rgba(0,0,0,0.75);
-}
-
-.mobile-menu.active{
-    transform: translate3d(0,0,0);
-}
-
-.mobile-menu a{
-    padding: 15px;
-    text-decoration: none;
-    color: black;
-}
-
-.mobile-menu a:hover{
-    text-decoration: none;
-    color: white;
-    color:#87cdff;
-}
-
-@media only screen and (max-width:96px){
-    .container{
-        width: 100%
-    }
-}
-
-@media only screen and (max-width:767px){
-    header .header-menu{
-        display: none;
-    }
-    header .menu-btn{
-        display: flex;
-    }
-    header .logo{
-        font-size: 1.3rem;
-    }
-    .mobile-menu{
-        display: flex;
-    }
+  }
+  header .menu-btn {
+    display: flex;
+  }
+  header .logo {
+    font-size: 1.3rem;
+  }
+  .mobile-menu {
+    display: flex;
+  }
 }
