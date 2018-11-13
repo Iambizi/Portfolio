@@ -7,20 +7,21 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 
-<body>
-    <header>
+<body class="fade-out">
+    <header id="top-top">
         <div class="logo">
             <a href="index.html" class="name">A | B</a>
         </div>
         <div class="header-menu">
-            <a href="index.html">Home</a>
-            <!-- <a href="index.html#services-section">Skills</a> -->
+            <!-- <a href="index.html">Home</a>
+            <a href="index.html#services-section">Skills</a>
             <a href="index.html#portfolio-section">Portfolio</a>
-            <a href="index.html#experience-section">Experience</a>
+            <a href="index.html#experience-section">Experience</a> -->
+            <a class="page-scroll" href="index.html#services-section">Scroll &rarr;</a>
         </div>
         <div class="menu-btn">
             <i class="fas fa-bars"></i>
@@ -30,19 +31,21 @@
         <a href="index.html">Home</a>
         <!-- <a href="index.html#services-section">Skills</a> -->
         <a href="index.html#portfolio-section">Portfolio</a>
-        <a href="index.html#experience-section">Experience</a>
+        <!-- <a href="index.html#experience-section">Experience</a> -->
     </div>
     <section id="top">
         <div class="container">
             <div class="info">
-                <div class="blue-square"></div>
-                <h1>Amir Bizimana</h1>
-                <p>Front-End developer</p>
-                <a href="#">Latest Work</a>
+                <!-- <div class="blue-square"></div> -->
+                <h1>Amir Bizimana<span class="punctuation">,</span> Front-end Developer<span class="punctuation">.</span></h1>
+                <p id="about">About me</p>
+                <p id="about-text">Welcome to my portfolio site. I'm a self taught web developer with a focus on Front-end development, currently based in Ottawa Canada.
+                        My current focus is on honing my React.js skills and learning more about design, typography and layout. Stay tuned for upcoming projects show casing new skills I pick up.</p>
+                <a id="latest" href="#portfolio-section">Latest Work</a>
             </div>
-            <div class="img">
+            <!-- <div class="img">
                 <div class="background-img"></div>
-            </div>
+            </div> -->
         </div>
     </section>
     <section id="services-section">
@@ -75,7 +78,6 @@
                     <i class="fas fa-money-bill-wave-alt"></i>
                     <h5>Currently learning</h5>
                     <ul>ReactJS</ul>
-                    <ul>Typography</ul>
                     <ul>Sketch</ul>
                 </div>
             </div>
@@ -153,7 +155,7 @@
                 </a>
             </div>
     </section>
-    <section id="experience-section">
+    <!-- <section id="experience-section">
         <div class="container">
             <div class="large-title">
                 Experience
@@ -172,8 +174,11 @@
                 </div>
             </div>
         </div>
-    </section>
-
+    </section> -->
+    <!--  -->
+    <div class="footer-anchor">
+            <a class="page-scroll" href="index.html#top-top">&larr; Scroll</a>
+        </div>
     <footer>
         <div class="social-container">
             <a href="http://www.instagram.com/iambizi">
@@ -189,9 +194,12 @@
                 <i class="fab fa-twitter"></i>
             </a>
         </div>
-        <h5>Amir Bizimana</h5>
-        <h6>Front-Developer</h6>
+        <h5>&copy; 2018 Amir Bi Bi BIZIMANA !</h5>
     </footer>
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.slim.js"
+			  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+			  crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
 </body>
 
