@@ -61,8 +61,7 @@ header .header-menu a.page-scroll {
   font-size: 0.8rem;
   text-decoration: none;
   color: black;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+
   /* padding: 0 10px; */
   transition: all 0.2s ease-in-out;
   /* Safari */
@@ -176,7 +175,7 @@ header .menu-btn {
 }
 
 @media only screen and (max-width: 767px) {
-  header .header-menu {
+  /* header .header-menu {
     display: none;
   }
   header .menu-btn {
@@ -189,5 +188,5 @@ header .menu-btn {
     display: flex;
     color: #87cdff;
     border-right: 1px solid;
-  }
+  } */
 }
