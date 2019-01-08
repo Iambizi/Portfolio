@@ -1,7 +1,7 @@
 #top .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 120px 80px;
+  padding: 80px 10px;
   align-items: center;
 }
 #top .info {
@@ -84,12 +84,12 @@
   #top .container {
     padding: 0 0 80px;
   }
-  #top .info .blue-square {
+  /* #top .info .blue-square {
     display: none;
   }
   #top .img .background-img {
     height: 100vh;
-  }
+  } */
   #top .info h1 {
     font-size: 2.4rem;
   }

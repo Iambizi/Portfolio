@@ -8,7 +8,7 @@ const clickedBtn = function() {
 };
 
 menuBtn[0].addEventListener("click", clickedBtn);
-console.log(menuBtn[0]);
+// console.log(menuBtn[0]);
 
 /*menuBtn[0].addEventListener('click',function(){
     mobileMenu[0].classList.toggle('active');
