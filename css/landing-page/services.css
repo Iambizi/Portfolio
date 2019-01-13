@@ -97,3 +97,57 @@ p {
 /*Phone*/
 @media only screen and (max-width: 767px) {
 }
+
+@media only screen and (max-width: 400px) {
+  #services-section .title .circle {
+    width: 80px;
+    height: 80px;
+    top: 63px;
+    left: 25px;
+  }
+  #services-section {
+    padding: 40px 100px;
+  }
+  #services-section .title h1 {
+    right: 33px;
+    font-size: 0.8rem;
+  }
+  #services-section .services-container .box .fas {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #services-section .services-container .box h5 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+  }
+
+  #services-section .services-container .box ul,
+  p {
+    font-size: 0.6rem;
+    line-height: 1.5;
+    color: #b3b3b3;
+  }
+  /* #services-section .services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+  } */
+  /* #services-section .services-container .box.blue {
+    grid-column: ;
+    grid-row: ;
+  }
+  
+  #services-section .services-container .box.red {
+    grid-column: ;
+    grid-row: ;
+  }
+  
+  #services-section .services-container .box.yellow {
+    grid-column: ;
+    grid-row: ;
+  } */
+}
