@@ -24,7 +24,7 @@
   position: relative;
   font-size: 2.5rem;
   text-transform: uppercase;
-  /* font-weight: 700; */
+  font-weight: 100;
   color: #16171b;
   z-index: 1;
   letter-spacing: 4px;
@@ -235,7 +235,6 @@
     grid-row: 7 / 9;
   }
 }
-/*Phone*/
 @media only screen and (max-width: 767px) {
   #portfolio-section .portfolio-container {
     display: grid;
@@ -272,18 +271,21 @@
     grid-row: 7 / 8;
   }
 }
-@media only screen and (max-width: 400px) {
+/*Phone*/
+@media only screen and (max-width: 450px) {
+  #portfolio-section {
+    padding: 40px 45px;
+  }
   #portfolio-section .title .square {
-    width: 80px;
-    height: 80px;
-    top: 63px;
-    left: 25px;
+    width: 95px;
+    height: 95px;
+    top: 54px;
+    left: 45px;
   }
-  #services-section {
-    padding: 40px 100px;
-  }
+
   #portfolio-section .title h1 {
-    right: 33px;
-    font-size: 0.8rem;
+    right: 4px;
+    font-size: 1rem;
+    font-weight: 100;
   }
 }

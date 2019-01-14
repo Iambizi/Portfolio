@@ -18,8 +18,8 @@
 
 #portfolio-projects h2 {
   font-size: 3.5rem;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
 
 #portfolio-projects .info .buttons {
@@ -39,7 +39,7 @@
 
 #portfolio-projects .info .buttons .fas {
   color: #ff5253;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 #portfolio-projects .info .buttons a:hover {
@@ -58,30 +58,13 @@
   color: #929294;
   text-decoration: none;
   margin-bottom: 1.8rem;
-  /* text-transform: capitalize; */
 }
-
-/* #portfolio-projects .technologies {
-  padding: 10px 0;
-  text-align: center;
-} */
 
 #portfolio-projects h3 {
   font-size: 2rem;
-  /* font-weight: 700; */
   margin: 2rem 0;
   text-transform: uppercase;
 }
-
-/* #portfolio-projects .technologies .icons {
-  display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 15px;
-    align-items: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 /* THREEJS project */
 #Threejs-section .portfolio-containerz {
@@ -165,7 +148,6 @@
 #Threejs-section .portfolio-containerz .boxx:hover .image .hover-bg {
   padding: 10px 20px;
   background: rgba(255, 53, 53, 0.8);
-  /* background: rgba(135, 205, 255, 0.8); */
 }
 
 #Threejs-section .portfolio-containerz .boxx .image .hover-bg .title {
@@ -205,34 +187,60 @@
   transform: translate3d(0, 0px, 0);
   opacity: 1;
 }
-
-@media only screen and (max-width: 96px) {
-  #portfolio-projects h1 {
-    font-size: 2rem;
-    text-align: center;
+/*Tablets*/
+@media only screen and (max-width: 960px) {
+  #portfolio-projects {
+    padding: 60px 35px;
   }
-
-  #portfolio-projects p {
-    font-size: 1rem;
+  #portfolio-projects h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
   }
-
-  #portfolio-projects h3 {
-    text-align: center;
+  #portfolio-projects .project-image .img {
+    height: 400px;
+    margin-bottom: 1.5rem;
+  }
+  #Threejs-section .portfolio-containerz {
+    grid-template-rows: 100px 100px 100px;
+    margin-bottom: 1.5rem;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  #portfolio-projects .info .buttons {
-    text-align: center;
+  #portfolio-projects {
+    padding: 60px 25px;
   }
-
+  #portfolio-projects .project-image .img {
+    height: 300px;
+  }
+  #portfolio-projects h2 {
+    font-size: 2.2rem;
+    font-weight: 250;
+  }
   #portfolio-projects .info .buttons a {
-    margin-bottom: 10px;
+    margin-bottom: 2px;
   }
-
-  #portfolio-projects .technologies .icons {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+}
+/*Phone*/
+@media only screen and (max-width: 450px) {
+  #portfolio-projects {
+    padding: 60px 15px;
+  }
+  #portfolio-projects h2 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  #portfolio-projects p {
+    font-size: 0.8rem;
+  }
+  #portfolio-projects .project-image {
+    width: 100%;
+    margin-bottom: 1.8rem;
+  }
+  #portfolio-projects .project-image .img {
+    height: 150px;
+  }
+  #portfolio-projects .info .buttons a {
+    margin-bottom: 2px;
   }
 }
