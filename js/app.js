@@ -1,9 +1,9 @@
 /* Mobile menu button */
-const menuBtn = document.getElementsByClassName("menu-btn");
+var menuBtn = document.getElementsByClassName("menu-btn");
 
-const mobileMenu = document.getElementsByClassName("mobile-menu");
+var mobileMenu = document.getElementsByClassName("mobile-menu");
 
-const clickedBtn = function() {
+var clickedBtn = function() {
   mobileMenu[0].classList.toggle("active");
 };
 
