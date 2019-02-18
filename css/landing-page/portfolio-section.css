@@ -148,9 +148,10 @@
 }
 
 #portfolio-section .portfolio-container .box.image4 .image {
-  background: url("https://cdn.dribbble.com/users/1172433/screenshots/3645437/debutshot.png");
+  background: url("../portfolio/images/Screen Shot 2019-02-15 at 20.56.51-fullpage.png");
   height: 100%;
   width: 100%;
+  height: 205px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
