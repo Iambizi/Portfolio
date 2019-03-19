@@ -169,7 +169,7 @@ header .menu-btn {
   color: #87cdff;
 }
 
-@media only screen and (max-width: 960 px) {
+@media only screen and (max-width: 960px) {
   .container {
     width: 100%;
   }
@@ -190,4 +190,7 @@ header .menu-btn {
     color: #87cdff;
     border-right: 1px solid;
   } */
+  header .header-menu a.page-scroll:visited {
+    color: #000;
+  }
 }
