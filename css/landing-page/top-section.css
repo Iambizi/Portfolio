@@ -6,10 +6,11 @@
 }
 #top .info {
   padding: 15px;
+  height: 60vh;
 }
 
 #top .info h1 {
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   text-transform: capitalize;
   font-weight: 700;
   color: #16171b;
@@ -37,7 +38,9 @@
 #top .info #about:hover {
   color: #87cdff;
 }
-
+#about {
+  font-size: 0.7rem;
+}
 #top .info p#about-text {
   display: none;
 }
@@ -51,6 +54,7 @@
   padding-bottom: 5px;
   border-bottom: 2px solid #87cdff;
   letter-spacing: 2px;
+  top: 50px;
 }
 
 #top .img .background-img {
@@ -76,13 +80,13 @@
     height: 100vh;
   }
   #top .info h1 {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
 }
 /*Phone*/
 @media only screen and (max-width: 767px) {
   #top .info h1 {
-    font-size: 1.9rem;
+    font-size: 3.2rem;
   }
   #top .info p#about-text {
     font-size: 0.7rem;
@@ -94,7 +98,7 @@
     padding: 30px 25px;
   }
   #top .info h1 {
-    font-size: 1.5rem;
+    font-size: 3.2rem;
   }
   #top .info #latest {
     letter-spacing: 0.8px;
