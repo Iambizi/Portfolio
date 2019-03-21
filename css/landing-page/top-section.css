@@ -75,7 +75,7 @@
 /*Tablets */
 @media only screen and (max-width: 960px) {
   #top .container {
-    padding: 50px 25px;
+    padding: 50px 25px 80px 55px;
   }
   #top .info .blue-square {
     display: none;
@@ -84,7 +84,7 @@
     height: 100vh;
   }
   #top .info h1 {
-    font-size: 3.2rem;
+    font-size: 5.5rem;
   }
 }
 /*Phone*/
