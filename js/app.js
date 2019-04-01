@@ -1,19 +1,3 @@
-/* Mobile menu button */
-var menuBtn = document.getElementsByClassName("menu-btn");
-
-var mobileMenu = document.getElementsByClassName("mobile-menu");
-
-var clickedBtn = function() {
-  mobileMenu[0].classList.toggle("active");
-};
-
-menuBtn[0].addEventListener("click", clickedBtn);
-// console.log(menuBtn[0]);
-
-/*menuBtn[0].addEventListener('click',function(){
-    mobileMenu[0].classList.toggle('active');
-});*/
-
 //About me text toggle
 $("#about").on("click", function() {
   $("#about-text").toggle(600);
@@ -46,6 +30,18 @@ $(document).ready(function() {
       },
       1000
     );
+  });
+  $(window).scroll(function() {
+    const height = $(window).height();
+    const scrollTop = $(window).scrollTop();
+    const obj = $("#portfolio-section");
+    const pos = obj.position();
+    wS = $(this).scrollTop();
+    if (height + scrollTop > pos.top) {
+      $("a#scroll-down").fadeOut(200);
+    } else {
+      $("a#scroll-down").fadeIn(200);
+    }
   });
 });
 
