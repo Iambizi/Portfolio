@@ -40,7 +40,7 @@ header .logo {
   display: flex;
 }
 
-#name {
+header div.logo a#name {
   padding: 15px 20px;
   text-decoration: none;
   color: #222;
