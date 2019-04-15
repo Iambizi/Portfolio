@@ -15,6 +15,7 @@
   font-weight: 700;
   color: #16171b;
   margin-bottom: 2rem;
+  word-break: keep-all;
 }
 
 #top .info .punctuation {
