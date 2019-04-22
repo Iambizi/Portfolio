@@ -15,7 +15,7 @@
   background-repeat: no-repeat !important;
   border-radius: 10px;
 }
-
+/* kid react uses this eh */
 #portfolio-projects .project-image .img.vidly-img {
   width: 100%;
   height: 640px;
@@ -63,6 +63,7 @@
   display: inline-block;
   font-size: 1rem;
   line-height: 1.7;
+  font-weight: 200;
   border-radius: 3px;
   color: #929294;
   text-decoration: none;
@@ -75,127 +76,6 @@
   text-transform: uppercase;
 }
 
-/* THREEJS project */
-#Threejs-section .portfolio-containerz {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 150px 150px;
-  grid-gap: 10px;
-}
-
-/* Box1 */
-#Threejs-section .portfolio-containerz .boxx.imageA {
-  grid-column: 1 / 3;
-  grid-row: 1 / 2;
-}
-#Threejs-section .portfolio-containerz .boxx.imageA .image {
-  background: url("../portfolio/images/cube-debris.png");
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-/* Box2 */
-#Threejs-section .portfolio-containerz .boxx.imageB {
-  grid-column: 3 / 4;
-  grid-row: 1 / 4;
-}
-
-#Threejs-section .portfolio-containerz .boxx.imageB .image {
-  background: url("../portfolio/images/complex-animation.png");
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-/* Box3 */
-#Threejs-section .portfolio-containerz .boxx.imageC {
-  grid-column: 1 / 3;
-  grid-row: 2 / 4;
-}
-
-#Threejs-section .portfolio-containerz .boxx.imageC .image {
-  background: url("../portfolio/images/Orbiting-geometry.png");
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-#Threejs-section .portfolio-containerz .boxx {
-  background: burlywood;
-  display: block;
-  transition: all 0.4s ease-in-out;
-  cursor: pointer;
-  width: 100%;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-#Threejs-section .portfolio-containerz .boxx:hover {
-  background: rgba(255, 255, 255, 1);
-  -webkit-box-shadow: 10px 40px 74px 24px rgba(0, 0, 0, 0.08);
-  -moz-box-shadow: 10px 40px 74px 24px rgba(0, 0, 0, 0.08);
-  box-shadow: 10px 40px 74px 24px rgba(0, 0, 0, 0.08);
-  cursor: pointer;
-}
-
-#Threejs-section .portfolio-containerz .boxx .image .hover-bg {
-  padding: 10px 20px;
-  background: rgba(255, 255, 255, 0);
-  transition: all 0.4s ease-in-out;
-  height: 100%;
-  width: 100%;
-}
-
-#Threejs-section .portfolio-containerz .boxx:hover .image .hover-bg {
-  padding: 10px 20px;
-  background: rgba(255, 53, 53, 0.8);
-}
-
-#Threejs-section .portfolio-containerz .boxx .image .hover-bg .title {
-  height: 100%;
-  width: 100%;
-}
-
-#Threejs-section .title {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-
-#Threejs-section .portfolio-containerz .boxx .image .hover-bg .title .text {
-  background: black;
-  border-radius: 5px;
-  padding: 10px 20px;
-  transform: translate3d(0, 400px, 0);
-  transition: all 0.5s ease-in-out;
-  opacity: 0;
-}
-
-#Threejs-section
-  .portfolio-containerz
-  .boxx:hover
-  .image
-  .hover-bg
-  .title
-  .text {
-  background: black;
-  border-radius: 5px;
-  padding: 10px 20px;
-  transform: translate3d(0, 0px, 0);
-  opacity: 1;
-}
 /*Tablets*/
 @media only screen and (max-width: 960px) {
   #portfolio-projects {
@@ -210,10 +90,6 @@
   }
   #portfolio-projects .project-image .img {
     height: 400px;
-    margin-bottom: 1.5rem;
-  }
-  #Threejs-section .portfolio-containerz {
-    grid-template-rows: 100px 100px 100px;
     margin-bottom: 1.5rem;
   }
 }

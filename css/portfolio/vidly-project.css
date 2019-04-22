@@ -1,0 +1,201 @@
+/* #portfolio-projects .project-image .img.vidly-img {
+  width: 100%;
+  height: 640px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 10px;
+} */
+
+/*Tablets*/
+/* @media only screen and (max-width: 960px) {
+  #portfolio-projects .project-image .img.vidly-img {
+    height: 440px;
+  }
+} */
+#portfolio-projectss {
+  padding: 100px 15px;
+}
+
+#portfolio-projectss .project-image {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+#portfolio-projectss .project-image .img {
+  width: 100%;
+  height: 450px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 10px;
+}
+
+/* #portfolio-projectss .project-image .img.vidly-img {
+  width: 100%;
+  height: 640px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 10px;
+} */
+
+/* THREEJS project */
+#courses-section .portfolio-containerss {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 150px;
+  grid-gap: 10px;
+}
+
+/* Box1 */
+#courses-section .portfolio-containerss .boxx.imageRE {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+}
+#courses-section .portfolio-containerss .boxx.imageRE .image {
+  background: url("../portfolio/images/real-estate-2");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  /* background-position: center; */
+  background-position: top;
+  background-repeat: no-repeat;
+}
+/* Box2 */
+#courses-section .portfolio-containerss .boxx.imageVidly {
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+}
+
+#courses-section .portfolio-containerss .boxx.imageVidly .image {
+  background: url("../portfolio/images/Optimized-Screen(1)");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#courses-section .portfolio-containerss .boxx {
+  background: burlywood;
+  display: block;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#courses-section .portfolio-containerss .boxx:hover {
+  background: rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 10px 40px 74px 24px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 10px 40px 74px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 10px 40px 74px 24px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+#courses-section .portfolio-containerss .boxx .image .hover-bg {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0);
+  transition: all 0.4s ease-in-out;
+  height: 100%;
+  width: 100%;
+}
+
+#courses-section .portfolio-containerss .boxx:hover .image .hover-bg {
+  padding: 10px 20px;
+  background: rgba(255, 53, 53, 0.8);
+}
+
+#courses-section .portfolio-containerss .boxx .image .hover-bg .title {
+  height: 100%;
+  width: 100%;
+}
+
+#courses-section .title {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#courses-section .portfolio-containerss .boxx .image .hover-bg .title .text {
+  background: black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transform: translate3d(0, 400px, 0);
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+
+#courses-section
+  .portfolio-containerss
+  .boxx:hover
+  .image
+  .hover-bg
+  .title
+  .text {
+  background: black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transform: translate3d(0, 0px, 0);
+  opacity: 1;
+}
+
+#portfolio-projectss h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+#portfolio-projectss .info .buttons {
+  padding: 20px 0;
+}
+
+#portfolio-projectss .info .buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: white;
+  background: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio-projectss .info .buttons .fas {
+  color: #ff5253;
+  margin-right: 5px;
+}
+
+#portfolio-projectss .info .buttons a:hover {
+  background: #87cdff;
+}
+
+#portfolio-projectss .info .buttons .fas {
+  color: #000;
+}
+
+#portfolio-projectss p {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.7;
+  border-radius: 3px;
+  color: #929294;
+  text-decoration: none;
+  margin-bottom: 1.8rem;
+}
+
+#portfolio-projectss h3 {
+  font-size: 2rem;
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
