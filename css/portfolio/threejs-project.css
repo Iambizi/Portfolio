@@ -1,29 +1,3 @@
-#portfolio-projects {
-  padding: 100px 15px;
-}
-
-#portfolio-projects .project-image {
-  width: 100%;
-  margin-bottom: 3rem;
-}
-
-#portfolio-projects .project-image .img {
-  width: 100%;
-  height: 450px;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  border-radius: 10px;
-}
-/* 
-#portfolio-projects .project-image .img {
-  width: 100%;
-  height: 640px;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  border-radius: 10px;
-} */
 /* THREEJS project */
 #Threejs-section .portfolio-containerz {
   display: grid;
@@ -148,20 +122,6 @@
 
 /*Tablets*/
 @media only screen and (max-width: 960px) {
-  #portfolio-projects {
-    padding: 60px 35px;
-  }
-  #portfolio-projects h2 {
-    font-size: 2.5rem;
-    font-weight: 300;
-  }
-  #portfolio-projects .project-image .img {
-    height: 440px;
-  }
-  #portfolio-projects .project-image .img {
-    height: 400px;
-    margin-bottom: 1.5rem;
-  }
   #Threejs-section .portfolio-containerz {
     grid-template-rows: 100px 100px 100px;
     margin-bottom: 1.5rem;

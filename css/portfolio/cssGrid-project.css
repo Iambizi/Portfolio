@@ -1,3 +1,4 @@
+/*Threejs built off this css too*/
 #portfolio-projects {
   padding: 100px 15px;
 }
@@ -122,7 +123,7 @@
     font-weight: 200;
   }
   #portfolio-projects p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   #portfolio-projects .project-image {
     width: 100%;
