@@ -1,0 +1,27 @@
+#portfolio-projects .project-image .img.kid {
+  width: 100%;
+  height: 630px;
+  background-size: cover !important;
+  background-position: top !important;
+  background-repeat: no-repeat !important;
+  border-radius: 10px;
+}
+
+/*Tablets*/
+@media only screen and (max-width: 960px) {
+  #portfolio-projects .project-image .img.kid {
+    height: 400px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #portfolio-projects .project-image .img.kid {
+    height: 340px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #portfolio-projects .project-image .img.kid {
+    height: 180px;
+  }
+}
