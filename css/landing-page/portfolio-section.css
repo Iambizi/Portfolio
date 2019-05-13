@@ -163,7 +163,8 @@
 }
 
 #portfolio-section .portfolio-container .box.image5 .image {
-  background: url("../portfolio/images/orbit-geo.gif");
+  /* background: url("../portfolio/images/orbit-geo.gif"); */
+  background: url("../portfolio/images/geometry-space");
   height: 100%;
   width: 100%;
   background-size: cover;
