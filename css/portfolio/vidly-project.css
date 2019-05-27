@@ -21,8 +21,8 @@
 /* Courses project */
 #courses-section .portfolio-containerss .p-images {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px 150px 150px;
   grid-gap: 10px;
 }
 
@@ -30,8 +30,10 @@
 #courses-section .portfolio-containerss .p-images .boxx.imageRE {
   /* grid-column: 1 / 2;
   grid-row: 1 / 4; */
+  /* grid-column: 1 / 3;
+  grid-row: 1 / 2; */
   grid-column: 1 / 3;
-  grid-row: 1 / 2;
+  grid-row: 1 / 3;
 }
 #courses-section .portfolio-containerss .p-images .boxx.imageRE .image {
   background: url("../portfolio/images/real-estate-2");
@@ -45,10 +47,11 @@
 #courses-section .portfolio-containerss .p-images .boxx.imageVidly {
   /* grid-column: 2 / 3;
   grid-row: 1 / 4; */
-  grid-column: 3 / 4;
-  grid-row: 1 / 4;
+  /* grid-column: 3 / 4;
+  grid-row: 1 / 4; */
+  grid-column: 3 / 5;
+  grid-row: 1 / 3;
 }
-
 #courses-section .portfolio-containerss .p-images .boxx.imageVidly .image {
   background: url("../portfolio/images/Optimized-Screen(1)");
   height: 100%;
@@ -61,12 +64,29 @@
 #courses-section .portfolio-containerss .p-images .boxx.imageRecipe {
   /* grid-column: 2 / 3;
   grid-row: 1 / 4; */
+  /* grid-column: 1 / 3;
+  grid-row: 2 / 4; */
   grid-column: 1 / 3;
-  grid-row: 2 / 4;
+  grid-row: 3 / 5;
 }
-
 #courses-section .portfolio-containerss .p-images .boxx.imageRecipe .image {
   background: url("../portfolio/images/recipe-optimized");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+/* Box4 */
+#courses-section .portfolio-containerss .p-images .boxx.imagePhoto {
+  /* grid-column: 2 / 3;
+  grid-row: 1 / 4; */
+  grid-column: -3 / -1;
+  grid-row: 3 / 5;
+}
+
+#courses-section .portfolio-containerss .p-images .boxx.imagePhoto .image {
+  background: url("../portfolio/images/OnSnap.png");
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -213,29 +233,33 @@
 @media only screen and (max-width: 450px) {
   /* #courses-section .portfolio-containerss .p-images {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 150px 150px 150px;
     grid-gap: 10px;
-  }
+  } */
   #courses-section .portfolio-containerss .p-images .boxx.imageRE {
     grid-column: 1 / 3;
-    grid-row: 1 / 2;
+    grid-row: 1 / 3;
   }
 
   #courses-section .portfolio-containerss .p-images .boxx.imageVidly {
-    grid-column: 1 / 3;
-    grid-row: 2 / 3;
+    grid-column: 3 / 5;
+    grid-row: 1 / 3;
   }
 
   #courses-section .portfolio-containerss .p-images .boxx.imageRecipe {
     grid-column: 1 / 3;
-    grid-row: 2 / 4;
+    grid-row: 3 / 5;
   }
-  */
+  #courses-section .portfolio-containerss .p-images .boxx.imagePhoto {
+    grid-column: 3 / 5;
+    grid-row: 3 / 5;
+  }
+
   #courses-section .portfolio-containerss .p-images {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
   }
   #portfolio-projectss h2 {
     font-size: 2rem;
