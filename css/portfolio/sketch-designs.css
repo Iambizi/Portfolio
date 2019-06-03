@@ -84,6 +84,21 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+/* Box6 */
+#sketch-section .portfolio-containersss .p-images .boxx.imageSK6 {
+  /* grid-column: 2 / 3;
+  grid-row: 1 / 4; */
+  grid-column: 3 / 5;
+  grid-row: 1 / 3;
+}
+#sketch-section .portfolio-containersss .p-images .boxx.imageSK6 .image {
+  background: url("../portfolio/images/sketch-6.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 #sketch-section .portfolio-containersss .p-images .boxx {
   background: #fff;
