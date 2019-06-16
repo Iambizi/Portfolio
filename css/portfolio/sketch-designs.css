@@ -216,7 +216,9 @@ html {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-
+.info .buttons a {
+  margin-bottom: 5px;
+}
 @keyframes zoom {
   from {
     transform: scale(0);
