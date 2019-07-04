@@ -19,57 +19,40 @@
 }
 
 /* Courses project */
-/* #api-section .portfolio-containerss-api .p-images {
+#api-section .portfolio-containerss-api .p-images {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 150px 150px 150px 150px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px 150px;
   grid-gap: 10px;
-} */
+}
 
 /* Box1 */
-#api-section .portfolio-containerss-api .p-images .boxx.imageRE {
+#api-section .portfolio-containerss-api .p-images .boxx.imagepoke {
   /* grid-column: 1 / 2;
     grid-row: 1 / 4; */
-  /* grid-column: 1 / 3;
-    grid-row: 1 / 2; */
   grid-column: 1 / 3;
-  grid-row: 1 / 3;
+  grid-row: 1 / 2;
+  /* grid-column: 1 / 2;
+  grid-row: 2 / 2; */
 }
 #api-section .portfolio-containerss-api .p-images .boxx.imagepoke {
   background: url("../portfolio/images/poke-api.png");
-  height: 450px;
-  width: 100%;
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-}
-/* Box2 */
-#api-section .portfolio-containerss-api .p-images .boxx.imageVidly {
-  /* grid-column: 2 / 3;
-    grid-row: 1 / 4; */
-  /* grid-column: 3 / 4;
-    grid-row: 1 / 4; */
-  grid-column: 3 / 5;
-  grid-row: 1 / 3;
-}
-#api-section .portfolio-containerss-api .p-images .boxx.imageVidly .image {
-  background: url("../portfolio/images/Optimized-Screen(1)");
   height: 100%;
   width: 100%;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
 }
-/* Box3 */
-#api-section .portfolio-containerss-api .p-images .boxx.imageRecipe {
+/* Box2 */
+#api-section .portfolio-containerss-api .p-images .boxx.imagerecipe {
   /* grid-column: 2 / 3;
     grid-row: 1 / 4; */
-  /* grid-column: 1 / 3;
-    grid-row: 2 / 4; */
-  grid-column: 1 / 3;
-  grid-row: 3 / 5;
+  grid-column: 3 / 4;
+  grid-row: 1 / 4;
+  /* grid-column: 3 / 5;
+  grid-row: 1 / 3; */
 }
-#api-section .portfolio-containerss-api .p-images .boxx.imageRecipe .image {
+#api-section .portfolio-containerss-api .p-images .boxx.imagerecipe .image {
   background: url("../portfolio/images/recipe-optimized");
   height: 100%;
   width: 100%;
@@ -77,15 +60,16 @@
   background-position: top;
   background-repeat: no-repeat;
 }
-/* Box4 */
-#api-section .portfolio-containerss-api .p-images .boxx.imagePhoto {
+/* Box3 */
+#api-section .portfolio-containerss-api .p-images .boxx.imageunsplash {
   /* grid-column: 2 / 3;
     grid-row: 1 / 4; */
-  grid-column: -3 / -1;
-  grid-row: 3 / 5;
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
+  /* grid-column: 1 / 3;
+  grid-row: 3 / 5; */
 }
-
-#api-section .portfolio-containerss-api .p-images .boxx.imagePhoto .image {
+#api-section .portfolio-containerss-api .p-images .boxx.imageunsplash .image {
   background: url("../portfolio/images/OnSnap.png");
   height: 100%;
   width: 100%;
@@ -93,6 +77,22 @@
   background-position: top;
   background-repeat: no-repeat;
 }
+/* Box4 */
+/* #api-section .portfolio-containerss-api .p-images .boxx.imagePhoto {
+  grid-column: 2 / 3;
+    grid-row: 1 / 4;
+  grid-column: -3 / -1;
+  grid-row: 3 / 5;
+} */
+
+/* #api-section .portfolio-containerss-api .p-images .boxx.imagePhoto .image {
+  background: url("../portfolio/images/OnSnap.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+} */
 #api-section .portfolio-containerss-api .p-images .boxx {
   background: burlywood;
   display: block;
@@ -106,7 +106,7 @@
   border-radius: 10px;
 }
 
-/* #api-section .portfolio-containerss-api .p-images .boxx:hover .imagepoke {
+#api-section .portfolio-containerss-api .p-images .boxx:hover .imagepoke {
   background: rgba(255, 255, 255, 1);
   -webkit-box-shadow: 10px 40px 74px 24px rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 10px 40px 74px 24px rgba(0, 0, 0, 0.08);
@@ -114,13 +114,7 @@
   cursor: pointer;
 }
 
-#api-section
-  .portfolio-containerss-api
-  .p-images
-  .boxx
-  .imagepoke
-  .image
-  .hover-bg {
+#api-section .portfolio-containerss-api .p-images .boxx .image .hover-bg {
   padding: 10px 20px;
   background: rgba(255, 255, 255, 0);
   transition: all 0.4s ease-in-out;
@@ -128,13 +122,7 @@
   width: 100%;
 }
 
-#api-section
-  .portfolio-containerss-api
-  .p-images
-  .boxx:hover
-  .imagepoke
-  .image
-  .hover-bg {
+#api-section .portfolio-containerss-api .p-images .boxx:hover .image .hover-bg {
   padding: 10px 20px;
   background: rgba(255, 53, 53, 0.8);
 }
@@ -143,15 +131,14 @@
   .portfolio-containerss-api
   .p-images
   .boxx
-  .imagepoke
   .image
   .hover-bg
   .title {
   height: 100%;
   width: 100%;
-} */
+}
 
-/* #api-section .title {
+#api-section .title {
   position: relative;
   width: 200px;
   height: 200px;
@@ -190,7 +177,7 @@
   padding: 10px 20px;
   transform: translate3d(0, 0px, 0);
   opacity: 1;
-} */
+}
 
 #portfolio-projectss-api h2 {
   font-size: 3.5rem;
@@ -213,10 +200,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio-projectss-api .info .buttons .fas {
+/* #portfolio-projectss-api .info .buttons .fas {
   color: #ff5253;
   margin-right: 5px;
-}
+} */
 
 #portfolio-projectss-api .info .buttons a:hover {
   background: #87cdff;
@@ -244,35 +231,35 @@
 }
 
 @media only screen and (max-width: 450px) {
-  /* #api-section .portfolio-containerss-api .p-images {
+  /* #courses-section .portfolio-containerss .p-images {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: 150px 150px 150px;
       grid-gap: 10px;
     } */
-  #api-section .portfolio-containerss-api .p-images .boxx.imageRE {
+  #api-section .portfolio-containerss-api .p-images .boxx.imagepoke {
     grid-column: 1 / 3;
     grid-row: 1 / 3;
   }
 
-  #api-section .portfolio-containerss-api .p-images .boxx.imageVidly {
+  #api-section .portfolio-containerss-api .p-images .boxx.imagerecipe {
     grid-column: 3 / 5;
     grid-row: 1 / 3;
   }
 
-  #api-section .portfolio-containerss-api .p-images .boxx.imageRecipe {
+  #api-section .portfolio-containerss-api .p-images .boxx.imageunsplash {
     grid-column: 1 / 3;
     grid-row: 3 / 5;
   }
-  #api-section .portfolio-containerss-api .p-images .boxx.imagePhoto {
-    grid-column: 3 / 5;
-    grid-row: 3 / 5;
-  }
+  /* #api-section .portfolio-containerss-api .p-images .boxx.imagePhoto {
+      grid-column: 3 / 5;
+      grid-row: 3 / 5;
+    } */
 
   #api-section .portfolio-containerss-api .p-images {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
   }
   #portfolio-projectss-api h2 {
     font-size: 2rem;
