@@ -11,7 +11,7 @@
 
 #portfolio-projectss-api .p-images .img {
   width: 100%;
-  height: 450px;
+  height:100%;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
