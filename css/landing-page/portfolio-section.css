@@ -136,10 +136,11 @@
 #portfolio-section .portfolio-container .box.image3 .image {
   /* background: url("https://cdn.dribbble.com/users/1094383/screenshots/4107773/800x600_5.gif"); */
   background: url("../portfolio/images/poke-api.png");
+  /* background: url("../portfolio/images/poke-sc.png"); */
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-position: top;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 /* Box4 */
