@@ -4,6 +4,7 @@
 @import "landing-page/services.css";
 @import "landing-page/portfolio-section.css";
 @import "landing-page/experience-section.css";
+@import "portfolio/responsive-projects.css";
 @import "portfolio/cssGrid-project.css";
 @import "portfolio/threejs-project.css";
 @import "portfolio/vidly-project.css";
