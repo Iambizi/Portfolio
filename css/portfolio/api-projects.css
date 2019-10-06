@@ -36,7 +36,8 @@
   grid-row: 2 / 2; */
 }
 #api-section .portfolio-containerss-api .p-images .boxx.imagepoke .image {
-  background: url("../portfolio/images/poke-api.png");
+  background: url("../portfolio/images/poke-api-o.png");
+  object-fit: cover;
   height: 100%;
   width: 100%;
   background-size: cover;

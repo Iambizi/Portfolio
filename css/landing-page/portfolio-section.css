@@ -38,7 +38,7 @@
 }
 
 #portfolio-section .portfolio-container .box {
-  background: burlywood;
+  background: #f0f0f0;
   display: block;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
@@ -49,6 +49,7 @@
   overflow: hidden;
   border-radius: 10px;
 }
+
 
 #portfolio-section .portfolio-container .box:hover {
   background: rgba(255, 255, 255, 1);
@@ -135,11 +136,12 @@
 }
 #portfolio-section .portfolio-container .box.image3 .image {
   /* background: url("https://cdn.dribbble.com/users/1094383/screenshots/4107773/800x600_5.gif"); */
-  background: url("../portfolio/images/poke-api.png");
-  /* background: url("../portfolio/images/poke-sc.png"); */
+  /* background: url("../portfolio/images/poke-api.png"); */
+  background: url("../portfolio/images/poke-sc.png");
   height: 100%;
   width: 100%;
-  background-size: cover;
+  /* object-fit: cover; */
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
 }
